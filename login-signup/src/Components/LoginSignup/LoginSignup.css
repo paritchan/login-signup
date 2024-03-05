@@ -81,6 +81,28 @@
 
 }
 
+.final-submit{
+    display: flex;
+    gap:30px;
+    margin:60px auto;
+
+}
+
+.button1 {
+    background-color: #000000;
+    color: #FFFFFF;
+    float: right;
+    font-size: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    background-color: #3c009d;
+} /* Green */
+
 .submit{
     display: flex;
     justify-content: center;
