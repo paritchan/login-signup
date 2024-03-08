@@ -2,6 +2,7 @@
     background-image: url('image.jpg');
     text-align:center;
     font-family: 'Roboto';
+    top: 4rem;
 }
 
 .img-alt{

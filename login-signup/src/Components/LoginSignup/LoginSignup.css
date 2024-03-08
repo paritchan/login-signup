@@ -84,8 +84,7 @@
 .final-submit{
     display: flex;
     gap:30px;
-    margin:60px auto;
-
+    margin:10px auto;
 }
 
 .button1 {
