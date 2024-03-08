@@ -88,9 +88,8 @@
 
 }
 
-.button1 {
-    background-color: #000000;
-    color: #FFFFFF;
+.submitform {
+    color: #eaeaea;
     float: right;
     font-size: 25px;
     padding-left: 40px;
@@ -120,4 +119,11 @@
 .gray{
     background: #EAEAEA;
     color:#676767;
+}
+
+.submit-form{
+    display: flex;
+    gap:30px;
+    margin:60px auto;
+
 }
