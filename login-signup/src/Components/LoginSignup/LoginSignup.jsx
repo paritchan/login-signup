@@ -13,7 +13,7 @@ import permit_icon from '../Assets/dl.png'
 const LoginSignup = () => {
   const [action,setAction] = useState("Sign Up");
   return (
- <div className='container'>
+ <div className='container-login'>
         <div className="header">
             <div className="text">{action}</div>
             <div className="underline"></div>

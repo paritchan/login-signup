@@ -1,0 +1,13 @@
+.card-main{
+    background-image: url('image.jpg');
+    text-align:center;
+    font-family: 'Roboto';
+}
+
+.img-alt{
+    width: 100px;
+}
+
+.btn.btn-primary.btn-md{
+    margin: 1rem;
+}
