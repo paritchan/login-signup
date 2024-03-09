@@ -27,8 +27,10 @@ import Bike from "./images/bike.jpg";
 import Auto from "./images/auto.jpg";
 import Sedan from "./images/sedan.jpg";
 import Suv from "./images/suv.jpg";
+import { useNavigate } from "react-router-dom";
 
 const RiderHome = () => {
+    const navigate = useNavigate();
     // const [location, setLocation] = useState(null);
     // const [weather, setWeather] = useState(null);
     // const [selectedCity,setSelectedCity] =useState([]);
@@ -254,6 +256,10 @@ const RiderHome = () => {
     }
     const toggleShowA = () => setShowA(false);
     const toggleShowB = () => setShowB(false);
+
+    const submitFeedBack = () =>{
+        navigate("/feedback")
+    }
     return (
         <Container>
             {/* <Spinner animation="border" role="status">
@@ -334,6 +340,11 @@ const RiderHome = () => {
                     You ride has been completed Successfully.
                 </Toast.Body>
                 </Toast>
+
+                <h3>Kidnly provide the feedback on your ride</h3>
+                <Button variant="primary" size="md" onClick={(e) => submitFeedBack()}>
+                Submit feedback
+            </Button>
             </Col>
         </Row>
         </>}
